@@ -17,12 +17,12 @@ export default React.createClass({
   makeActiveLink() {
     let self = this;
     let pathname = window.location.pathname;
-    let navItems = self.refs.navList.getDOMNode().querySelectorAll('.nav-item');
+    let navItems = self.refs.navList.getDOMNode().querySelectorAll('a');
 
-    for(let i = 0; i < navItems.length; i++) {
+    for (let i = 0; i < navItems.length; i++) {
       let link = navItems.item(i).children.item(0);
 
-      if(localLinks.active(link, pathname)) {
+      if (localLinks.active(link, pathname)) {
         navItems.item(i).classList.add('bg-white');
         navItems.item(i).classList.add('blue-70');
       } else {
@@ -45,7 +45,7 @@ export default React.createClass({
 
   render() {
     return (
-      <div className="main flex tall">
+      <div className="main flex tall overflow-hidden" style={{width: '984px', margin: '0 auto'}}>
         <View />
         <nav className="col-2 tall" role="navigation" onClick={this.handleClick}>
           <ul className="sidenav" ref="navList">
