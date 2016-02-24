@@ -1,28 +1,28 @@
-import Router from 'ampersand-router';
-import React from 'react';
-import NavContainer from './nav-container';
-import HomePage from './pages/home';
-import LayoutPage from './pages/layout';
-import BasePage from './pages/base';
-import NavPage from './pages/nav';
-import TablesPage from './pages/tables';
-import FormsPage from './pages/forms';
-import ButtonsPage from './pages/buttons';
-import PopoversPage from './pages/popovers';
-import ModalsPage from './pages/modals';
-import CardsPage from './pages/cards';
-import IconsPage from './pages/icons';
-import AnimationsPage from './pages/animations';
 import AccordionsPage from './pages/accordions';
-import ViewPage from './pages/view';
+import AnimationsPage from './pages/animations';
+import BasePage from './pages/base';
+import ButtonsPage from './pages/buttons';
+import CardsPage from './pages/cards';
+import FormsPage from './pages/forms';
+import HomePage from './pages/home';
+import IconsPage from './pages/icons';
+import LayoutPage from './pages/layout';
+import ModalsPage from './pages/modals';
+import NavPage from './pages/nav';
+import PopoversPage from './pages/popovers';
+import React from 'react';
+import Router from 'ampersand-router';
+import SidenavContainer from './sidenav-container';
+import TablesPage from './pages/tables';
 import ViewActions from './components/view/actions/view-actions';
+import ViewPage from './pages/view';
 
 let appContainer = document.getElementById('app');
 
 export default Router.extend({
   renderPage(Page) {
     ViewActions.flush();
-    const main = React.createElement(NavContainer, {}, React.createElement(Page));
+    const main = React.createElement(SidenavContainer, {}, React.createElement(Page));
 
     React.render(main, appContainer);
   },
