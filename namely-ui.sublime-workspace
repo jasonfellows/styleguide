@@ -1,0 +1,1381 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hand",
+				"handleAddType"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"bro",
+				"browserify"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"contextual",
+				"contextualHelp"
+			],
+			[
+				"prop",
+				"propTypes"
+			],
+			[
+				"read",
+				"readOnly"
+			],
+			[
+				"_hand",
+				"_handleKeyUp"
+			],
+			[
+				"_handle",
+				"_handleChange"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"radio",
+				"radio-field"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"contextualH",
+				"ContextualHelp"
+			],
+			[
+				"handl",
+				"handleClick"
+			],
+			[
+				"onc",
+				"onChangeDate"
+			],
+			[
+				"overl",
+				"overlayContent"
+			],
+			[
+				"position",
+				"positionTooltip"
+			],
+			[
+				"company",
+				"company_can_view_reports"
+			],
+			[
+				"accesS",
+				"access_role"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/scss/theme/_theme.scss",
+			"settings":
+			{
+				"buffer_size": 306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/components/forms/fields/date/date.es6",
+			"settings":
+			{
+				"buffer_size": 5409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 238 files for \"momentdate\"\n\n/Users/jasonfellows/Repos/styleguide/public/app.js:\n 35127      return {\n 35128        errors: this.props.errors || [],\n 35129:       value: this.momentDate(this.props.initialValue)\n 35130      };\n 35131    },\n .....\n 35146      if (!!this.props.maxDate) {\n 35147        if (this.props.includeMaxMinBounds) {\n 35148:         return this.momentDate(this.props.maxDate).add(1, 'day');\n 35149        } else {\n 35150:         return this.momentDate(this.props.maxDate);\n 35151        }\n 35152      }\n .....\n 35155      if (!!this.props.minDate) {\n 35156        if (this.props.includeMaxMinBounds) {\n 35157:         return this.momentDate(this.props.minDate).subtract(1, 'day');\n 35158        } else {\n 35159:         return this.momentDate(this.props.minDate);\n 35160        }\n 35161      }\n .....\n 35203        return this.state.value.isValid();\n 35204      } else if (this.props.initialValue) {\n 35205:       return this.momentDate(this.props.initialValue).isValid();\n 35206      } else {\n 35207        return true;\n .....\n 35236        style: this.iconStyle() }));\n 35237    },\n 35238:   momentDate: function momentDate(date) {\n 35239      if (!!date) {\n 35240        switch (date.constructor.name) {\n\n/Users/jasonfellows/Repos/styleguide/src/js/components/forms/fields/date/date.es6:\n   43      return {\n   44        errors: this.props.errors || [],\n   45:       value: this.momentDate(this.props.initialValue)\n   46      };\n   47    },\n   ..\n   64      if (!!this.props.maxDate) {\n   65        if (this.props.includeMaxMinBounds) {\n   66:         return this.momentDate(this.props.maxDate).add(1, 'day');\n   67        } else {\n   68:         return this.momentDate(this.props.maxDate);\n   69        }\n   70      }\n   ..\n   74      if (!!this.props.minDate) {\n   75        if (this.props.includeMaxMinBounds) {\n   76:         return this.momentDate(this.props.minDate).subtract(1, 'day');\n   77        } else {\n   78:         return this.momentDate(this.props.minDate);\n   79        }\n   80      }\n   ..\n  130        return this.state.value.isValid();\n  131      } else if (this.props.initialValue) {\n  132:       return this.momentDate(this.props.initialValue).isValid();\n  133      } else {\n  134        return true;\n  ...\n  179    },\n  180  \n  181:   momentDate(date) {\n  182      if (!!date) {\n  183        switch (date.constructor.name) {\n\n15 matches across 2 files\n\n\nSearching 238 files for \"namely uodates\"\n\n0 matches\n\nSearching 238 files for \"share an update\"\n\n0 matches",
+			"settings":
+			{
+				"buffer_size": 2516,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "Gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3756,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pacl",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jasonfellows/Repos/styleguide",
+		"/Users/jasonfellows/Repos/styleguide/public",
+		"/Users/jasonfellows/Repos/styleguide/src",
+		"/Users/jasonfellows/Repos/styleguide/src/js",
+		"/Users/jasonfellows/Repos/styleguide/src/js/components",
+		"/Users/jasonfellows/Repos/styleguide/src/js/components/forms",
+		"/Users/jasonfellows/Repos/styleguide/src/js/components/forms/fields",
+		"/Users/jasonfellows/Repos/styleguide/src/js/components/forms/fields/date",
+		"/Users/jasonfellows/Repos/styleguide/src/scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/animations",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/base",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/theme",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/theme/components"
+	],
+	"file_history":
+	[
+		"/Users/jasonfellows/Repos/styleguide/src/scss/base/_borders.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/base/_colors.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/base/_sizing.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/namely-ui.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/base/_base.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/theme/colors/_colors.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/layout/_spacing.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/js/components/forms/fields/date/date.es6",
+		"/Users/jasonfellows/Repos/styleguide/circle.yml",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/app.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/themes/_theme-1.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/base/_alignment.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/layout/_positions.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/layout/_overflow.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/layout/_grid.scss",
+		"/Users/jasonfellows/Repos/styleguide/Gulpfile.js",
+		"/Users/jasonfellows/Repos/styleguide/node_modules/jade/node_modules/mkdirp/.gitignore.orig",
+		"/Users/jasonfellows/Repos/styleguide/.gitignore",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/base/_reset.scss",
+		"/Users/jasonfellows/Repos/styleguide/src/scss/base/_tables.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/util/fonts.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/goals/goal_weight.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/sidenav.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/buttons/button-containers/_overlay.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/goals/list_view.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/common/profile-lockup.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/user-icon.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/goals.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/common/profile-icon.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/application.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/reviews.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/nav-tree.scss",
+		"/Users/jasonfellows/Repos/namely/app/views/performance/_sidenav.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/buttons/button-types/_with-icon.scss",
+		"/Users/jasonfellows/Repos/namely/package.json",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/base.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/settings/payroll_jobs/payroll_jobs.es6",
+		"/Users/jasonfellows/Repos/namely/circle.yml",
+		"/Users/jasonfellows/Repos/namely/app/models/fields/date.rb",
+		"/Users/jasonfellows/Repos/namely/app/views/settings/shared/_side_nav.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/people/_shownav.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/forms.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/settings/pay_groups/pay_groups.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/people/timeline/components/TimelineFieldTable.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/people/timeline/components/TimelineFieldDescription.es6",
+		"/Users/jasonfellows/Repos/namely/app/views/shared/_floating_inner_nav.html.slim",
+		"/Users/jasonfellows/Repos/namely/features/support/env.rb",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/routers/company_settings.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/settings/time_off/time_off_settings_app.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/time_off.scss",
+		"/Users/jasonfellows/Repos/namely/db/schema.rb",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/stores/settings/time_off.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/settings/time_off/time_off_type_form.es6",
+		"/Users/jasonfellows/Repos/namely/app/lib/reporting/columns/column.rb",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/actions/settings/time_off.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/forms/_form.scss",
+		"/Users/jasonfellows/Repos/namely/app/views/performance/review_batchers/index.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/buttons/button-types/_naked.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/buttons.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/buttons/buttons.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/forms/form-fields/checkbox/checkbox-fields.scss",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/companies/index.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/forms/form-elements/_labels.scss",
+		"/Users/jasonfellows/Repos/namely/app/controllers/company/settings/companies_controller.rb",
+		"/Users/jasonfellows/Repos/namely/app/assets/templates/time_off/type_form.jade",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/util/icons.scss",
+		"/Users/jasonfellows/Repos/namely/features/step_definitions/onboarding_template_steps.rb",
+		"/Users/jasonfellows/Repos/namely/Gulpfile.js",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/time_off/plans/index.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/routers/time_off_request.coffee",
+		"/Users/jasonfellows/Repos/namely/app/views/teams/settings_revenue.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/teams/settings_costs.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/controllers/api/time_off/types_controller.rb",
+		"/Users/jasonfellows/Repos/namely/app/views/teams/export.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/settings/account/index.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/performance/reviews/revision_notes/_reviewer.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/performance/reviews/new.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/performance/reviews/_manage_review.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/performance/reviewers/_answer_ratinglabel.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/performance/reviewers/_answer_multiplechoice.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/people/_salary_history_fields.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/devise/sessions/_web.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/homepage/show.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/features/show.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/access_roles/_show_scope.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/access_roles/_show_bundle_group.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/access_roles/_show_boolean.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/notification_settings.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/assets/templates/time_off/plan_form.jade",
+		"/Users/jasonfellows/Repos/namely/app/assets/templates/time_off/buckets.jade",
+		"/Users/jasonfellows/Repos/namely/app/assets/templates/time_off/bucket.jade",
+		"/Users/jasonfellows/Repos/namely/app/assets/templates/holiday/plan.jade",
+		"/Users/jasonfellows/Repos/namely/app/assets/templates/competencies/set.jade",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/forms/form-fields/checkbox/_checkbox.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/review_questions/rating_label.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/review_questions/rating.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/review_questions/multiple_choice.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/review_cycles/steps/notifications.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/review_cycles/steps/settings.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/goals/settings_form.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/goals/subgoal.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/forms/checkbox.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/events/update_form.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/fields/checkboxes.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/common/checkbox.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/common/activity_comment_form.coffee",
+		"/Users/jasonfellows/Repos/namely/app/views/people/talent_card/_general.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/people/show.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/home.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/styleguide/forms/form-fields/checkbox/_checkboxes.scss",
+		"/Users/jasonfellows/Repos/namely/app/views/performance/reviewers/_answer_rating.html.slim",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/tasks.scss",
+		"/Users/jasonfellows/Repos/namely/app/assets/stylesheets/company/settings/homepage.scss",
+		"/Users/jasonfellows/Repos/namely/Procfile",
+		"/Users/jasonfellows/Repos/namely/app/views/people/_form_header.slim",
+		"/Users/jasonfellows/Repos/namely/app/views/company/settings/time_off/types/index.html.slim",
+		"/Users/jasonfellows/Repos/namely/Procfile.server",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/forms/field_set.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/actions/settings/pay_groups.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/actions/settings/payroll_jobs.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/stores/settings/payroll_clients.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/actions/settings/payroll_clients.es6",
+		"/Users/jasonfellows/Repos/namely/.git/COMMIT_EDITMSG",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/actions/review_signatures.es6",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/actions/change_reasons.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/ui/settings/change_reasons/form.coffee",
+		"/Users/jasonfellows/Repos/namely/app/assets/javascripts/stores/change_reasons.coffee",
+		"/Users/jasonfellows/Repos/namely/app/controllers/company/settings/pay_groups_controller.rb"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"",
+			"app/assets/stylesheets/*.scss",
+			"ap/assets/stylesheets/*.scss",
+			"ap/assets/*",
+			"",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/**, -/Users/jasonfellows/Repos/styleguide/public/*, -/Users/jasonfellows/Repos/styleguide/src/lib/*, -/Users/jasonfellows/Repos/styleguide/lib/*.*, -/Users/jasonfellows/Repos/styleguide/dist/*.*, -/Users/jasonfellows/Repos/styleguide/node_modules/*/**",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/*, -/Users/jasonfellows/Repos/styleguide/public/*, -/Users/jasonfellows/Repos/styleguide/src/lib/*, -/Users/jasonfellows/Repos/styleguide/lib/*.*, -/Users/jasonfellows/Repos/styleguide/dist/*.*, -/Users/jasonfellows/Repos/styleguide/node_modules/*/**",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/*, -/Users/jasonfellows/Repos/styleguide/public/*, -/Users/jasonfellows/Repos/styleguide/src/lib/*, -/Users/jasonfellows/Repos/styleguide/lib/*.*, -/Users/jasonfellows/Repos/styleguide/dist/*.*",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/*, -/Users/jasonfellows/Repos/styleguide/public/*, -/Users/jasonfellows/Repos/styleguide/src/lib/*, -/Users/jasonfellows/Repos/styleguide/lib/*.*",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/*, -/Users/jasonfellows/Repos/styleguide/public/*, -/Users/jasonfellows/Repos/styleguide/src/lib/*",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/*, -/Users/jasonfellows/Repos/styleguide/public, -/Users/jasonfellows/Repos/styleguide/src/lib",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules, -/Users/jasonfellows/Repos/styleguide/public, -/Users/jasonfellows/Repos/styleguide/src/lib",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/, -/Users/jasonfellows/Repos/styleguide/public/, -/Users/jasonfellows/Repos/styleguide/src/lib/",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/*.*, -/Users/jasonfellows/Repos/styleguide/public/*.*, -/Users/jasonfellows/Repos/styleguide/src/lib/*.*",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/*.*, -/Users/jasonfellows/Repos/styleguide/public/*.*",
+			"-/Users/jasonfellows/Repos/styleguide/node_modules/*.*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"share an update",
+			"namely uodates",
+			"momentdate",
+			"extraclasses",
+			"extraclass",
+			"duration-2",
+			"durantion-2",
+			"colors",
+			"theme",
+			"validate",
+			"mxn",
+			"sidenav",
+			"subgoa",
+			"sanit",
+			"sub",
+			"subgoal",
+			".not-rounded",
+			".circle",
+			".rounded-3",
+			".rounded-2",
+			".rounded-1",
+			".b",
+			"align-middle",
+			".mb2",
+			".mb1",
+			"mb1",
+			"datepicker",
+			"generated from ",
+			"hover-danger",
+			"sidenav",
+			"hover",
+			"border-bo",
+			"nav-tree-barren",
+			"nav-tree",
+			"nav-tree-header",
+			"on",
+			"nav-tree",
+			"performance-sidenav",
+			"user_icon",
+			"user-icon",
+			"user-info",
+			".portrait",
+			"user-icon",
+			"h5",
+			".user-icon",
+			"profile-tooltip",
+			"goal_weight",
+			"status-col",
+			".btn-container-overlay",
+			"for-removal",
+			"sidenav-state-row",
+			"sidenav state row",
+			"proxima",
+			"font",
+			"gulp",
+			"tooltip",
+			"public",
+			"namely-ui';",
+			"surge",
+			"namely-ui/dist",
+			"namely-ui/dist/buttons/button",
+			"nav-tree",
+			"sidenav-narrow",
+			"sidenav0narrow",
+			"@javascript",
+			"javas",
+			"timeoff",
+			"isadding",
+			"include na",
+			"naked",
+			"review cycles",
+			"reviewcycles",
+			"label-right",
+			"check-field",
+			"checkbox-field",
+			"before",
+			"type=\"checkbox\"",
+			"checkbox",
+			"n-form-section",
+			"for-checkbox",
+			"check",
+			"state.ty",
+			"type",
+			"checkbox",
+			"browserify",
+			"checkbox",
+			"border-b",
+			"checkb",
+			"autopre",
+			"namely-",
+			"calendar",
+			"calendar_options_alt_title",
+			"-n-checkbox",
+			"mb3",
+			"employee-show",
+			".namely-ui",
+			"-n-checkbox",
+			"namely-ui",
+			"-n-checkbox",
+			".checkbox",
+			"checkbo",
+			"input[type=\"ch",
+			"input[type",
+			"input[check",
+			"input[ty",
+			"listed",
+			"button",
+			"-n-bulleted",
+			"edit-tag",
+			"edit-label",
+			".editable-list",
+			"browser",
+			"sourcemap",
+			"source",
+			"checkbox",
+			"naught",
+			"down",
+			"mainte",
+			"to set up your time off",
+			"to set up you rtime off",
+			"meta",
+			"typesplan",
+			"time_off/plans",
+			"time",
+			"utils/alt",
+			"alt",
+			"import 'alt",
+			"select {"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"namely-ui",
+			"&::",
+			"NumberField",
+			"RadioField",
+			"CheckboxField",
+			"DateField",
+			"SelectField",
+			"TextField",
+			"TextAreaField",
+			"<Field.Select",
+			"<Field.Radio",
+			"<Field.TextArea",
+			"<Field.Date",
+			"<Field.Number",
+			"<Field.Text",
+			"<Field.Checkbox",
+			"Type",
+			"React.PropTypes",
+			"",
+			"props.on",
+			"5px"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/scss/theme/_theme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/components/forms/fields/date/date.es6",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4561,
+								4561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2516,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										184,
+										194
+									],
+									[
+										375,
+										385
+									],
+									[
+										472,
+										482
+									],
+									[
+										661,
+										671
+									],
+									[
+										763,
+										773
+									],
+									[
+										957,
+										967
+									],
+									[
+										1125,
+										1135
+									],
+									[
+										1146,
+										1156
+									],
+									[
+										1413,
+										1423
+									],
+									[
+										1598,
+										1608
+									],
+									[
+										1693,
+										1703
+									],
+									[
+										1876,
+										1886
+									],
+									[
+										1976,
+										1986
+									],
+									[
+										2164,
+										2174
+									],
+									[
+										2292,
+										2302
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2516,
+								2516
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/jasonfellows/Repos/styleguide",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1014.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "Gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1050,
+								1456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/components/forms/fields/date/date.es6",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1323,
+								1323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 98.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.352303030787,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "namely-ui.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"date",
+				"src/js/components/forms/fields/date/date.es6"
+			],
+			[
+				"colors",
+				"src/scss/base/_colors.scss"
+			],
+			[
+				"base",
+				"src/scss/base/_base.scss"
+			],
+			[
+				"borders",
+				"src/scss/base/_borders.scss"
+			],
+			[
+				"theme",
+				"src/scss/theme/_theme.scss"
+			],
+			[
+				"gulpfile",
+				"Gulpfile.js"
+			],
+			[
+				"spac",
+				"src/scss/layout/_spacing.scss"
+			],
+			[
+				"namely-ui",
+				"src/scss/namely-ui.scss"
+			],
+			[
+				"date.",
+				"src/js/components/forms/fields/date/date.es6"
+			],
+			[
+				"goalscon",
+				"app/controllers/performance/goals_controller.rb"
+			],
+			[
+				"goal",
+				"app/models/goal.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"namely",
+				"src/scss/namely-ui.scss"
+			],
+			[
+				"namelyui",
+				"namely-ui.js"
+			],
+			[
+				"basescss",
+				"src/scss/base/_base.scss"
+			],
+			[
+				"appscs",
+				"src/scss/app.scss"
+			],
+			[
+				"colorsscs",
+				"src/scss/themes/theme-1/colors/_colors.scss"
+			],
+			[
+				"components",
+				"src/scss/themes/theme-1/components/_components.scss"
+			],
+			[
+				"elementssc",
+				"src/scss/themes/theme-1/elements/_elements.scss"
+			],
+			[
+				"gitignore",
+				".gitignore"
+			],
+			[
+				"gitigonor",
+				"node_modules/jade/node_modules/mkdirp/.gitignore.orig"
+			],
+			[
+				"",
+				"circle.yml"
+			],
+			[
+				"hnavtree",
+				"app/assets/stylesheets/nav-tree.scss"
+			],
+			[
+				"sidenav",
+				"app/views/performance/_sidenav.html.slim"
+			],
+			[
+				"goalweight",
+				"app/assets/javascripts/ui/goals/goal_weight.coffee"
+			],
+			[
+				"navtree",
+				"app/assets/stylesheets/nav-tree.scss"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"fonts",
+				"app/assets/stylesheets/util/fonts.scss"
+			],
+			[
+				"payrolljob",
+				"app/assets/javascripts/ui/settings/payroll_jobs/payroll_jobs.es6"
+			],
+			[
+				"circl",
+				"circle.yml"
+			],
+			[
+				"paygroups",
+				"app/assets/javascripts/ui/settings/pay_groups/pay_groups.es6"
+			],
+			[
+				"forms",
+				"app/assets/stylesheets/forms.scss"
+			],
+			[
+				"floatingi",
+				"app/views/shared/_floating_inner_nav.html.slim"
+			],
+			[
+				"side",
+				"app/views/settings/shared/_side_nav.html.slim"
+			],
+			[
+				"env.",
+				"features/support/env.rb"
+			],
+			[
+				"column",
+				"app/lib/reporting/columns/column.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"routerssett",
+				"app/assets/javascripts/routers/company_settings.coffee"
+			],
+			[
+				"timeoffscss",
+				"app/assets/stylesheets/time_off.scss"
+			],
+			[
+				"stotimeoff",
+				"app/assets/javascripts/stores/settings/time_off.es6"
+			],
+			[
+				"actionstime",
+				"app/assets/javascripts/actions/settings/time_off.es6"
+			],
+			[
+				"settingsap",
+				"app/assets/javascripts/ui/settings/time_off/time_off_settings_app.es6"
+			],
+			[
+				"naked",
+				"app/assets/stylesheets/styleguide/buttons/button-types/_naked.scss"
+			],
+			[
+				"buttons",
+				"app/assets/stylesheets/buttons.scss"
+			],
+			[
+				"checkbox-",
+				"app/assets/stylesheets/styleguide/forms/form-fields/checkbox/checkbox-fields.scss"
+			],
+			[
+				"timeofftype",
+				"app/assets/javascripts/ui/settings/time_off/time_off_type_form.es6"
+			],
+			[
+				"settingscompan",
+				"app/views/company/settings/companies/index.html.slim"
+			],
+			[
+				"settingscompanies",
+				"app/controllers/company/settings/companies_controller.rb"
+			],
+			[
+				"storetimeoff",
+				"app/assets/javascripts/stores/settings/time_off.es6"
+			],
+			[
+				"timeoffsett",
+				"app/assets/javascripts/ui/settings/time_off/time_off_settings_app.es6"
+			],
+			[
+				"plansindex",
+				"app/views/company/settings/time_off/plans/index.html.slim"
+			],
+			[
+				"routertimeoff",
+				"app/assets/javascripts/routers/time_off_request.coffee"
+			],
+			[
+				"settingsapp",
+				"app/assets/javascripts/ui/settings/time_off/time_off_settings_app.es6"
+			],
+			[
+				"icons",
+				"app/assets/stylesheets/util/icons.scss"
+			],
+			[
+				"gulp",
+				"Gulpfile.js"
+			],
+			[
+				"package.j",
+				"package.json"
+			],
+			[
+				"apitype",
+				"app/controllers/api/time_off/types_controller.rb"
+			],
+			[
+				"typeja",
+				"app/assets/templates/time_off/type_form.jade"
+			],
+			[
+				"general",
+				"app/views/people/talent_card/_general.html.slim"
+			],
+			[
+				"checkboxscss",
+				"app/assets/stylesheets/styleguide/forms/form-fields/checkbox/_checkbox.scss"
+			],
+			[
+				"icon",
+				"app/assets/javascripts/ui/styleguide/icon.es6"
+			],
+			[
+				"timesettinga",
+				"app/assets/javascripts/ui/settings/time_off/time_off_settings_app.es6"
+			],
+			[
+				"procfile",
+				"Procfile"
+			],
+			[
+				"bulleted",
+				"app/assets/stylesheets/styleguide/bases/lists/_bulleted.scss"
+			],
+			[
+				"listscs",
+				"app/assets/stylesheets/styleguide/bases/lists/lists.scss"
+			],
+			[
+				"gulpf",
+				"Gulpfile.js"
+			],
+			[
+				"changereson",
+				"app/assets/javascripts/ui/settings/change_reasons/change_reason.coffee"
+			],
+			[
+				"routersett",
+				"app/assets/javascripts/routers/company_settings.coffee"
+			],
+			[
+				"timeofsetting",
+				"app/assets/javascripts/ui/settings/time_off/time_off_settings_app.es6"
+			],
+			[
+				"formhead",
+				"app/views/people/_form_header.slim"
+			],
+			[
+				"procfi",
+				"Procfile.server"
+			],
+			[
+				"storesettim",
+				"app/assets/javascripts/stores/settings/time_off.es6"
+			],
+			[
+				"actionstimeof",
+				"app/assets/javascripts/actions/settings/time_off.es6"
+			],
+			[
+				"fieldset",
+				"app/assets/javascripts/ui/forms/field_set.coffee"
+			],
+			[
+				"routersetting",
+				"app/assets/javascripts/routers/company_settings.coffee"
+			],
+			[
+				"controtime",
+				"app/controllers/api/time_off/types_controller.rb"
+			],
+			[
+				"actionpayrol",
+				"app/assets/javascripts/actions/settings/payroll_clients.es6"
+			],
+			[
+				"storepay",
+				"app/assets/javascripts/stores/settings/payroll_clients.es6"
+			],
+			[
+				"actionchangere",
+				"app/assets/javascripts/actions/change_reasons.coffee"
+			],
+			[
+				"actionschange",
+				"app/assets/javascripts/actions/change_reasons.coffee"
+			],
+			[
+				"changere",
+				"app/assets/javascripts/stores/change_reasons.coffee"
+			],
+			[
+				"storetimeof",
+				"app/assets/javascripts/stores/settings/time_off.es6"
+			],
+			[
+				"actionssettings",
+				"app/assets/javascripts/actions/settings/time_off.es6"
+			],
+			[
+				"timeoffsetting",
+				"app/assets/javascripts/ui/settings/time_off/time_off_settings_app.es6"
+			],
+			[
+				"paygroup",
+				"app/controllers/company/settings/pay_groups_controller.rb"
+			],
+			[
+				"esignindex",
+				"app/views/company/settings/esignature_documents/index.html.slim"
+			],
+			[
+				"adobees",
+				"app/assets/javascripts/ui/settings/adobe_esign_tokens.es6"
+			],
+			[
+				"esignatured",
+				"app/controllers/company/settings/esignature_documents_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"applicatoinhead",
+				"app/views/application/_header.html.slim"
+			],
+			[
+				"authorizations",
+				"app/controllers/api/authorizations_controller.rb"
+			],
+			[
+				"authnew",
+				"app/views/api/authorizations/new.html.slim"
+			],
+			[
+				"pendinrow",
+				"app/assets/templates/performance/pending_tasks/row.jade"
+			],
+			[
+				"struct",
+				"db/structure.sql"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"packag",
+				"package.json"
+			],
+			[
+				"gitign",
+				".gitignore"
+			],
+			[
+				"assets",
+				"assets-entrypoint.sh"
+			],
+			[
+				"dockerfi",
+				"Dockerfile-dev"
+			],
+			[
+				"dockercom",
+				"docker-compose.yml"
+			],
+			[
+				"broadwa",
+				"scripts/broadway-update.sh"
+			],
+			[
+				"circle",
+				"circle.yml"
+			],
+			[
+				"packagej",
+				"package.json"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"package.",
+				"package.json"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"sizing",
+				"src/scss/base/_sizing.scss"
+			],
+			[
+				"commonview",
+				"app/assets/javascripts/ui/common/view/View.es6"
+			],
+			[
+				"application",
+				".gulp/stylesheets/application.css"
+			],
+			[
+				"grunt",
+				"Gruntfile.coffee"
+			],
+			[
+				"app.co",
+				"app/assets/javascripts/app.coffee"
+			],
+			[
+				"gulpfi",
+				"Gulpfile.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"500.ht",
+				".gulp/images/500.html"
+			],
+			[
+				"formsfileinput",
+				"app/assets/javascripts/ui/styleguide/forms/file-input.es6"
+			],
+			[
+				"fileinput",
+				"app/assets/javascripts/ui/common/form/inputs/file/FileInput.es6"
+			],
+			[
+				"deploy",
+				"config/deploy.rb"
+			],
+			[
+				"namel-",
+				"app/assets/stylesheets/namely-ui.scss"
+			],
+			[
+				"pakc",
+				"package.json"
+			],
+			[
+				"gu",
+				"Gulpfile.js"
+			],
+			[
+				"datep",
+				"src/js/components/forms/fields/date/date-picker.es6"
+			],
+			[
+				"accordion",
+				"test/misc/accordion-item.spec.js"
+			],
+			[
+				"buttonsp",
+				"test/buttons/button.spec.js"
+			],
+			[
+				"karma",
+				"karma.conf.js"
+			],
+			[
+				"pacak",
+				"package.json"
+			],
+			[
+				"modal",
+				"src/scss/components/_modal.scss"
+			],
+			[
+				"sizes",
+				"src/scss/elements/buttons/_sizes.scss"
+			],
+			[
+				"float",
+				"src/scss/layout/_floats.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

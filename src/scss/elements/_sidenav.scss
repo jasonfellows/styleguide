@@ -1,0 +1,104 @@
+.sidenav {
+  padding: 0;
+  margin-top: 0;
+
+  > li > a span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  > li.with-children > a:before {
+    @include icon($icon_arrow_down);
+    color: $blue-50;
+    float: right;
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  > li.on > a {
+    color: $blue-80;
+
+    &:before {
+      color: $grey-25;
+    }
+  }
+
+  li,
+  ul li {
+    background: none;
+  }
+
+  ul,
+  li {
+    padding: 0;
+  }
+
+  li a {
+    border-bottom: 1px solid $grey-10;
+    display: block;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 10px;
+  }
+
+  li li a {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 10px 5px 10px 20px;
+    border-bottom: 1px dotted $grey-10;
+  }
+
+  li li:last-child a {
+    border-bottom: 1px solid $grey-10;
+  }
+
+  li li a:before {
+    content: "●";
+    color: $blue-70;
+    padding-right: 5px;
+    font-size: 10px;
+    vertical-align: middle;
+  }
+
+  li li.on {
+    position: relative;
+
+    a {
+      background-color: $grey-5;
+      color: $blue-80;
+    }
+
+    a:before {
+      color: $blue-80;
+    }
+
+    &:after {
+      @include icon($icon_chevron_right);
+      position: absolute;
+      top: 14px;
+      right: 10px;
+      font-size: 12px;
+      color: $grey-25;
+    }
+  }
+
+  li ul {
+    display: none;
+  }
+
+  li.on ul {
+    display: block;
+  }
+}
+
+.sidenav-header {
+  padding: 0 $space-2 $space-1;
+  border-bottom: 3px solid $grey-25;
+  font-weight: bold;
+}
+
+.sidenav-section {
+  margin-bottom: $space-4;
+}

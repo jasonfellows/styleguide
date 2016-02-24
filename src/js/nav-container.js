@@ -47,22 +47,22 @@ export default React.createClass({
     return (
       <div className="main flex tall">
         <View />
-        <nav className="nav nav-primary col-2 tall bg-grey-95 white" role="navigation" onClick={this.handleClick}>
-          <ul className="nav-list" ref="navList">
-            <li className="nav-item py2 px3"><a className="nav-link" href="/">Home</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/layout">Layout</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/base">Base Styles</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/nav">Navigation</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/tables">Tables + Lists</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/forms">Forms</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/buttons">Buttons</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/icons">Icons</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/popovers">Popovers</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/modals">Modals</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/view">View</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/cards">Cards</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/animations">Animations</a></li>
-            <li className="nav-item py2 px3"><a className="nav-link" href="/accordions">Accordions</a></li>
+        <nav className="col-2 tall" role="navigation" onClick={this.handleClick}>
+          <ul className="sidenav" ref="navList">
+            <li><a href="/">Home</a></li>
+            <li><a href="/layout">Layout</a></li>
+            <li><a href="/base">Base Styles</a></li>
+            <li><a href="/nav">Navigation</a></li>
+            <li><a href="/tables">Tables + Lists</a></li>
+            <li><a href="/forms">Forms</a></li>
+            <li><a href="/buttons">Buttons</a></li>
+            <li><a href="/icons">Icons</a></li>
+            <li><a href="/popovers">Popovers</a></li>
+            <li><a href="/modals">Modals</a></li>
+            <li><a href="/view">View</a></li>
+            <li><a href="/cards">Cards</a></li>
+            <li><a href="/animations">Animations</a></li>
+            <li><a href="/accordions">Accordions</a></li>
           </ul>
         </nav>
         <section className="content-container col-10 flex-auto tall">{this.props.children}</section>
