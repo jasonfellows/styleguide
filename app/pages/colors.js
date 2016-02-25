@@ -1,5 +1,5 @@
 import React from 'react';
-import ColorData from '../../lib/_colors'
+import ColorData from '../../src/lib/_colors'
 
 export default React.createClass({
   displayName: "Colors",

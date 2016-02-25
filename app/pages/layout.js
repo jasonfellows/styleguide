@@ -1,6 +1,6 @@
 import React from 'react';
 import Styleguide from '../styleguide';
-import GridBlock from '../components/layout/grid-block';
+import GridBlock from '../../src/js/components/layout/grid-block';
 import Flexbox from './layout/flexbox';
 import Spacing from './layout/spacing';
 

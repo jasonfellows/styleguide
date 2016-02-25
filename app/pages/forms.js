@@ -7,8 +7,8 @@ import {
   RadioField,
   TextField,
   TextAreaField
-} from '../components/forms/fields/index';
-import EditLabel from '../components/forms/edit-label';
+} from '../../src/js/components/forms/fields/index';
+import EditLabel from '../../src/js/components/forms/edit-label';
 import Moment from 'moment';
 import React from 'react';
 import Select from 'react-select';

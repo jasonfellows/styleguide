@@ -1,10 +1,9 @@
 import React from 'react';
 import localLinks from 'local-links';
 
-import View from './components/view/view';
-
 export default React.createClass({
-  displayName: 'NavContainer',
+
+  displayName: 'Sidenav',
 
   componentDidMount() {
     this.makeActiveLink();
@@ -23,11 +22,9 @@ export default React.createClass({
       let link = navItems.item(i).children.item(0);
 
       if (localLinks.active(link, pathname)) {
-        navItems.item(i).classList.add('bg-white');
-        navItems.item(i).classList.add('blue-70');
+        navItems.item(i).classList.add('on');
       } else {
-        navItems.item(i).classList.remove('bg-white');
-        navItems.item(i).classList.remove('blue-70');
+        navItems.item(i).classList.remove('on');
       }
     }
   },
@@ -35,7 +32,7 @@ export default React.createClass({
   handleClick(e) {
     let pathname = localLinks.getLocalPathname(e);
 
-    if(pathname){
+    if (pathname) {
       e.preventDefault();
       window.router.history.navigate(pathname, {trigger: true});
     } else {
@@ -46,7 +43,6 @@ export default React.createClass({
   render() {
     return (
       <div className="main flex tall overflow-hidden" style={{width: '984px', margin: '0 auto'}}>
-        <View />
         <nav className="col-2 tall" role="navigation" onClick={this.handleClick}>
           <ul className="sidenav" ref="navList">
             <li><a href="/">Home</a></li>

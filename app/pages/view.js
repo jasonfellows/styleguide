@@ -1,12 +1,12 @@
 import React from 'react';
 import Styleguide from '../styleguide';
-import PropsTable from '../style_guide_components/props-table';
+import PropsTable from '../props-table';
 
-import ViewStore from '../components/view/stores/view-store';
-import ViewActions from '../components/view/actions/view-actions';
+import ViewStore from '../../src/js/components/view/stores/view-store';
+import ViewActions from '../../src/js/components/view/actions/view-actions';
 
-import Button from '../components/buttons/button';
-import ButtonGroup from '../components/buttons/button-group';
+import Button from '../../src/js/components/buttons/button';
+import ButtonGroup from '../../src/js/components/buttons/button-group';
 
 const {
   actionBarEnter,

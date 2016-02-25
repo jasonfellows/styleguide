@@ -72,7 +72,7 @@ gulp.task('icons', function() {
 
 gulp.task('scripts', function() {
   browserify({
-    entries: './src/js/index.js',
+    entries: './app/index.js',
     extensions: ['.es6', '.js'],
     debug: true
   })

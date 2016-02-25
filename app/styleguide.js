@@ -1,7 +1,8 @@
 import React from 'react';
 
 export default React.createClass({
-  displayName: "Styleguide",
+
+  displayName: "Page",
 
   listComponentTitles() {
     let children = this.props.children;
@@ -15,9 +16,8 @@ export default React.createClass({
         <li className="py1 blue-70">
           <a href={"#" + title}>{child.props.title}</a>
         </li>
-        )
+      );
     });
-
   },
 
   renderExample() {
@@ -30,9 +30,8 @@ export default React.createClass({
             </code>
           </pre>
         </div>
-        );
+      );
     }
-
   },
 
   listComponents() {
@@ -53,12 +52,10 @@ export default React.createClass({
           </div>
         </div>
         );
-
     });
   },
 
   render() {
-
     return (
       <div className="styleguide flex tall">
         <div className="styleguide-sidebar col-2 py5 px3 br bw-1 bc-grey-15">
@@ -67,6 +64,6 @@ export default React.createClass({
         </div>
         <div id="styleguide-components" className="styleguide-components col-10 flex-auto overflow-scroll p4">{this.listComponents()}</div>
       </div>
-      )
+    );
   }
 });
