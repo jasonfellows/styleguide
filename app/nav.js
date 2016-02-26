@@ -45,7 +45,6 @@ export default React.createClass({
   render() {
     return (
       <div className="main flex tall overflow-hidden" style={{width: '984px', margin: '0 auto'}}>
-        <View />
         <nav className="col-2 tall" role="navigation" onClick={this.handleClick}>
           <ul className="nav" ref="sidenavList">
             <li><a href="/">Home</a></li>
